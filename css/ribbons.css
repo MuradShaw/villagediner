@@ -1,9 +1,26 @@
+.updateRibbon {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    font-family: "Sail";
+
+  background: #999997;
+  text-align: left;
+  text-indent: 50px;
+  font-size: 97px;
+}
+
 .ribbon {
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  color: white;
+  font-family: "Playfair Display Bold";
 
-    background: #000000;
+  background: #505050;
+  text-align: center;
+  font-size: 19px;
 }
 
 .blockRibbon {
@@ -50,5 +67,5 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 2000px 1000px;
-	
+
 }
