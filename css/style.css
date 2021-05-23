@@ -1,0 +1,100 @@
+body {
+    margin : 0;
+    background: rgb(245, 245, 245);
+    font-family: sans-serif;
+    font-weight: 600;
+	
+	background-image: url("img\background.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #F8F0EF;
+	height: 100px;
+	
+	padding-left: 80px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    max-height: 70px;
+    max-width: 70px;
+	
+	background-attachment: fixed;
+}
+
+.centerimage {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hdTitle {
+	float : left;
+	padding: 25px;
+	
+	font-family: "Playfair Display Bold";
+	color: #414141;
+	font-size: 45px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 25px;
+    
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color: x5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color:#ded5af;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #F5F5F5;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}  

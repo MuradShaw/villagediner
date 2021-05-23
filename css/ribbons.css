@@ -1,0 +1,54 @@
+.ribbon {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: #000000;
+}
+
+.blockRibbon {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 500px;
+	color: #ff0051;
+	font-family: Tahoma, Geneva, sans-serif;
+
+	background: url(../img/cover.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.ribbonWhite {
+	width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background: #F5F5F5
+}
+
+.blackRibbon {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 200px;
+
+    background: #000000
+}
+
+.textBoxRibbon {
+	width: 75px;
+	height: 100px;
+	background: rgb(245, 245, 245);
+}
+
+.whiteRibbon {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 600px;
+
+    background-image: url("https://images.hdqwalls.com/wallpapers/future-sports-car-neon-sunset-background-4k-il.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 2000px 1000px;
+	
+}
