@@ -40,7 +40,6 @@ header::after {
 }
 
 hdTitle {
-    float: left;
     padding: 25px;
     font-family: "Playfair Display Bold";
     color: #414141;
