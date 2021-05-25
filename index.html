@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Citra</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/ribbons.css">
+    <link rel="stylesheet" href="css/images.css">
+    <link rel="stylesheet" href="css/customButtons.css">
+    <link rel="stylesheet" href="css/cards.css">
 </head>
 
 <body>
@@ -42,27 +46,65 @@
 
   <!-- addUpdatesRibbon = where we add the websites updates (White Bar under Updates Ribbon)-->
   <div class="addUpdatesRibbon">
-
+    
   </div>
 
   <div class="reviewRibbon">
     Testimonials
+
+    <br><button class = "reviewRelated" onclick="loadAllReviews()">Write a Review</button> <button class = "reviewRelated" onclick="loadAllReviews()">Read More</button>
   </div>
 
 <!-- addreviewRibbon = where we add the reviews (White Bar under Reviews Ribbon)-->
-  <div class="addreviewRibbon">
+  <div class="addreviewRibbon" id = "parent">
+    <div class = "reviewCards" style = "float: left">
+        <div class = "reviewStars">★★★★★</div> 
+        <div class = "reviewText">"This Local diner was suggested to me by my best friend and the food was amazing. I had the best grill cheese sandwich ever. The waitress we had was super sweet.</div>
+        <div class = "reviewTitle">Will definitely return back!!!"</div>
+        <div class = "reviewAuthor">- James S</div>
+    </div>
 
+    <div class = "reviewCards" style = "float: left">
+        <div class = "reviewStars">★★★★★</div> 
+        <div class = "reviewText">"I adore this venue a lot. theres a romantic spirit. The cuisine is superb. the service is dynamic and the crew is courteous. The pay is satisfactory.</div>
+        <div class = "reviewTitle">profoundly recommend."</div>
+        <div class = "reviewAuthor">- Roger N</div>
+    </div>
+
+    <div class = "reviewCards" style = "float: left">
+        <div class = "reviewStars">★★★★★</div> 
+        <div class = "reviewText">"Good food, and friendly staff. I was asked to wear a mask while away from my table. Yes, asked, and politely.When I’m TOLD to wear a mask, I promptly leave without comment. They even provided a mask, which promptly broke."</div>
+        <div class = "reviewAuthor">- Gary H</div>
+    </div>
   </div>
 
   <div class="row">
     <div class="column" style="background-color:#B34444; color:White;">
-        Gallery
+        | Gallery |
     </div>
 
-    <div class="column" style="background-color:#3757C8; color:White;">
-        Our Menu
+<!--:#3757C8-->
+    <div class="column" style="background-color:#B34444; color:White;">
+        | Our Menu |
     </div>
   </div>
 
+  <div class = "gallery"> 
+        <figure class = "gallery__item gallery__item--1">
+            <img src = "img/2018-03-19.jpg" class = "gallery__img" alt "Image 1">
+        </figure>
+        <figure class = "gallery__item gallery__item--2">
+            <img src = "img/2019-05-27.jpg" class = "gallery__img" alt "Image 2">
+        </figure>
+        <figure class = "gallery__item gallery__item--3">
+            <img src = "img/2020 takeout menu 1.png" class = "gallery__img" alt "Image 3">
+        </figure>
+  </div>
+  
+  <div class="bigRibbon">
+    Contact Us
+  </div>
+
+  <script src="buttons.js"></script>
 </body>
 </html>

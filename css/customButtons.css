@@ -1,0 +1,24 @@
+.reviewRelated {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:9px 29px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.reviewRelated:hover {
+	background-color:#ccc2a6;
+}
+.reviewRelated:active {
+	position:relative;
+	top:1px;
+}
+
+        

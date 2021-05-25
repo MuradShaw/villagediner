@@ -24,9 +24,11 @@
 .reviewRibbon {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: "Playfair Display Bold";
 
   background: #999997;
-  text-align: right;
+  text-align: center;
+  /* text-indent: 700px; */
   font-size: 46px;
 }
 
@@ -45,8 +47,8 @@
     font-family: "Playfair Display Bold";
 
   background: #999997;
-  text-indent: 10px;
-  text-align: left;
+  /* text-indent: 500px; */
+  text-align: center;
   font-size: 46px;
 }
 
@@ -62,10 +64,22 @@
   font-size: 19px;
 }
 
+.bigRibbon {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  color: white;
+  font-family: "Playfair Display Bold";
+
+  background: #505050;
+  text-align: center;
+  font-size: 46px;
+}
+
 .blockRibbon {
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 500px;
+    padding-bottom: 700px;
 	color: #ff0051;
 	font-family: Tahoma, Geneva, sans-serif;
 
