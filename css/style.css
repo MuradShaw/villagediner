@@ -68,10 +68,14 @@ nav a {
     color: x5;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: "Playfair Display Bold";
+    font-size: 18px;
+
+    color: #414141;
 }
 
 nav a:hover {
-    color: #ded5af;
+    color: #B34444;
 }
 
 nav a::before {
@@ -79,7 +83,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: black;
     position: absolute;
     top: 0;
     width: 0%;

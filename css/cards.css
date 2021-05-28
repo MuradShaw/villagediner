@@ -1,3 +1,5 @@
+/* Review related */
+
 .reviewCards {
     background: #F8F0EF;
     width: 400px;
@@ -6,6 +8,9 @@
 
     display:block;
     position:relative;
+
+    padding-top: 25px;
+    padding-bottom: 30px;
     padding-left: 100px;
     padding-right: 134px;
 }
@@ -32,5 +37,34 @@
 .reviewText {
     font-size: 17px;
     font-style: italic;
+    color:#1b1c1b;
+}
+
+/* Update related */
+
+.updatesCard {
+    background: #F8F0EF;
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Roboto';
+
+    display:block;
+    position:relative;
+
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 134px;
+}
+
+.updatePostDate {
+    font-size: 17px;
+    font-style: italic;
+    text-align: right;
+    color:gray;
+}
+
+.reviewText {
+    font-size: 17px;
     color:#1b1c1b;
 }

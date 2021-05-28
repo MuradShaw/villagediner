@@ -85,7 +85,7 @@
 
 	background: url(../img/cover.jpg);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: cover;
 }
 
