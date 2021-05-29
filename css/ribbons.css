@@ -8,23 +8,23 @@
     float: left;
     width: 50%;
     padding: 50px;
-
+    box-shadow: 0 4px 8px 0 #000000;
     font-size: 46px;
     text-align: Center;
   box-sizing: border-box;
 }
 
-.addreviewRibbon {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 450px;
+.addreviewRibbon:after {
+    content: "";
+    display: table;
+    clear: both;
     background: #F8F0EF;
 }
 
 .reviewRibbon {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: absolute;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border:3px solid black;
     font-family: "Playfair Display Bold";
 
@@ -35,13 +35,13 @@
 }
 
 .addUpdatesRibbon {
-    width: 100%;
+    width: absolute;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .updateRibbon {
-    width: 100%;
+    width: absolute;
     padding-top: 20px;
     padding-bottom: 20px;
     border:3px solid black;
@@ -55,7 +55,7 @@
 }
 
 .ribbon {
-    width: 100%;
+    width: absolute;
     padding-top: 15px;
     padding-bottom: 15px;
     border:3px solid black;
@@ -109,9 +109,9 @@
 }
 
 .textBoxRibbon {
-	width: 75px;
-	height: 100px;
-	background: rgb(245, 245, 245);
+  	width: 75px;
+  	height: 100px;
+  	background: rgb(245, 245, 245);
 }
 
 .whiteRibbon {
@@ -123,5 +123,4 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 2000px 1000px;
-
 }
