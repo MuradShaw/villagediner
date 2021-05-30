@@ -21,4 +21,26 @@
 	top:1px;
 }
 
-        
+/* Gallery below */
+.galleryRelated {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color: #B34444;
+	border-radius:15px;
+	border:2px solid #eae0c2; 
+	display:inline-block;
+	cursor:pointer;
+	color:#eae0c2;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:9px 29px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.galleryRelated:hover {
+	background-color: rgb(196, 105, 105);
+}
+.galleryRelated:active {
+	position:relative;
+	top:1px;
+}    

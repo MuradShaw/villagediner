@@ -89,17 +89,66 @@
     <div class="column" style="background-color:#B34444; color:White;">| Our Menu |</div>
   </div>
 
-  <div class = "gallery">
-        <figure class = "gallery__item gallery__item--1">
-            <img src = "img/2018-03-19.jpg" class = "gallery__img" alt "Image 1">
-        </figure>
-        <figure class = "gallery__item gallery__item--2">
-            <img src = "img/2019-05-27.jpg" class = "gallery__img" alt "Image 2">
-        </figure>
-        <figure class = "gallery__item gallery__item--3">
-            <img src = "img/2020 takeout menu 1.png" class = "gallery__img" alt "Image 3">
-        </figure>
-  </div>
+  <div class = "imagesRibbon">
+    <div class = "gallery">
+        <div>
+            <button class="galleryRelated" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="galleryRelated" onclick="plusDivs(1)">&#10095;</button>
+
+            <img class="mySlides" src="img/2018-03-19.jpg" style="width:100%">
+            <img class="mySlides" src="img/2019-05-27.jpg" style="width:100%">
+            <img class="mySlides" src="img/IMG_20180513_102258075_HDR.jpg" style="width:100%">
+            <img class="mySlides" src="img/cover.jpg" style="width:100%">
+        </div>
+    </div>
+        <div class = "menu">
+            <button class="galleryRelated" onclick="enlargeMenu()">CLICK TO ENLARGE</button>
+
+            <div style="height:720px;width:850px;overflow:auto;">
+                <a href="https://www.musthavemenus.com/menu/viewMenu.do?token=bd3786aa-c805-4522-a186-1d00f623eeaa&lite=true">
+                    <img src="img/1_1920.png" style="width:100%">
+                    <img src="img/2_1920.png" style="width:100%">
+                </a>
+            </div>
+        </div>
+   </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 10000); // Change image every 10 seconds
+    }
+    </script>
 
   <div class="bigRibbon">
     Contact Us
