@@ -1,21 +1,14 @@
 .gallery {
     float: left;
-    padding-top: 25px;
-    padding-left: 45px;
-    padding-right: 0px;
-
-    width: 42%;
-    height: 720px;
-
-    object-fit: cover;
+    width: 50%;
+    height: 800px;
+    padding:auto;
 }
 
 .menu {
-    float: right;
-
-    width: 45%;
-    height: 720px;
-
-    padding-top: 25px;
-    padding-right: 45px;
+    float: left;
+    width: 50%;
+    height: 800px;
+    padding:auto;
+    overflow:auto;
 }
