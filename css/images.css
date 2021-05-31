@@ -4,7 +4,7 @@
     padding-left: 45px;
     padding-right: 0px;
 
-    width: 720px;
+    width: 45%;
     height: 1280px;
 
     object-fit: cover;
@@ -13,7 +13,7 @@
 .menu {
     float: right;
 
-    width: 850px;
+    width: 47%;
     height: 720px;
 
     padding-top: 25px;
