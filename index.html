@@ -17,7 +17,7 @@
     <header>
     <br>
 
-      <img src="img/diner logo pic.png" alt="logo" class="logo">
+    <img src="img/diner logo pic.png" alt="logo" class="logo">
 		<hdTitle>
 			The Village Diner
 		</hdTitle>
@@ -39,11 +39,12 @@
     Phone: 215-886-9656
   </div>
 
+  <!--  Update Related***
+  addUpdatesRibbon = where we add the websites updates (White Bar under Updates Ribbon)-->
   <div class="updateRibbon">
     Updates
   </div>
 
-  <!-- addUpdatesRibbon = where we add the websites updates (White Bar under Updates Ribbon)-->
   <div class="addUpdatesRibbon">
     <div class = "updateCard">
         <div class = "updatePostDate">Posted on Jan 4, 2021</div> <br>
@@ -57,54 +58,53 @@
   </div>
 
   <div class="reviewRibbon" id="anchor_testimonials">Testimonials
-    <br><button class = "reviewRelated" onclick="loadAllReviews()">Write a Review</button> <button class = "reviewRelated" onclick="loadAllReviews()">Read More</button>
+    <br> <button class = "reviewRelated" onclick="loadAllReviews()">Write a Review</button> <button class = "reviewRelated" onclick="loadAllReviews()">Read More</button>
   </div>
 
-<!-- addreviewRibbon = where we add the reviews (White Bar under Reviews Ribbon)-->
+  <!-- Review Related**
+  addreviewRibbon = where we add the reviews (White Bar under Reviews Ribbon)-->
   <div class="addreviewRibbon" id = "parent">
-    <div class = "reviewCards">
+    <div class = "threeColumns">
         <div class = "reviewStars">★★★★★</div>
         <div class = "reviewText">"This Local diner was suggested to me by my best friend and the food was amazing. I had the best grill cheese sandwich ever. The waitress we had was super sweet.</div>
         <div class = "reviewTitle">Will definitely return back!!!"</div>
         <div class = "reviewAuthor">- James S</div>
     </div>
 
-    <div class = "reviewCards">
+    <div class = "threeColumns">
         <div class = "reviewStars">★★★★★</div>
         <div class = "reviewText">"I adore this venue a lot. theres a romantic spirit. The cuisine is superb. the service is dynamic and the crew is courteous. The pay is satisfactory.</div>
         <div class = "reviewTitle">profoundly recommend."</div>
         <div class = "reviewAuthor">- Roger N</div>
     </div>
 
-    <div class = "reviewCards">
+  <div class = "threeColumns">
         <div class = "reviewStars">★★★★★</div>
         <div class = "reviewText">"Good food, and friendly staff. I was asked to wear a mask while away from my table. Yes, asked, and politely.When I’m TOLD to wear a mask, I promptly leave without comment. They even provided a mask, which promptly broke."</div>
         <div class = "reviewAuthor">- Gary H</div>
     </div>
   </div>
 
-  <!--:#3757C8-->
+  <!-- Gallery/Menu** -->
   <div class="row">
     <div class="column" style="background-color:#B34444; color:White;">| Gallery |</div>
     <div class="column" style="background-color:#B34444; color:White;">| Our Menu |</div>
   </div>
 
-  <div class = "imagesRibbon">
-    <div class = "gallery">
+  <div class="imagesRibbon">
+    <div class="gallery">
         <div>
             <button class="galleryRelated" onclick="plusDivs(-1)">&#10094;</button>
             <button class="galleryRelated" onclick="plusDivs(1)">&#10095;</button>
 
-            <img class="mySlides" src="img/2018-03-19.jpg" style="width:100%">
-            <img class="mySlides" src="img/2019-05-27.jpg" style="width:100%">
-            <img class="mySlides" src="img/IMG_20180513_102258075_HDR.jpg" style="width:100%">
-            <img class="mySlides" src="img/cover.jpg" style="width:100%">
+            <img class="mySlides" src="img/2018-03-19.jpg" style="width:100%; height: 760px;">
+            <img class="mySlides" src="img/2019-05-27.jpg" style="width:100%; height: 760px;">
+            <img class="mySlides" src="img/IMG_20180513_102258075_HDR.jpg" style="width:100%; height: 760px;">
+            <img class="mySlides" src="img/cover.jpg" style="width:100%; height: 760px;">
         </div>
     </div>
-        <div class = "menu">
+        <div class="menu">
             <button class="galleryRelated" onclick="enlargeMenu()">CLICK TO ENLARGE</button>
-
-            <div style="height:720px;width:100%;overflow:auto;">
                 <a href="https://www.musthavemenus.com/menu/viewMenu.do?token=bd3786aa-c805-4522-a186-1d00f623eeaa&lite=true">
                     <img src="img/1_1920.png" style="width:100%">
                     <img src="img/2_1920.png" style="width:100%">
@@ -112,6 +112,7 @@
             </div>
         </div>
    </div>
+
 
   <script>
     var slideIndex = 1;
