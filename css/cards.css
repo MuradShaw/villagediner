@@ -65,3 +65,60 @@
     font-size: 17px;
     color:#1b1c1b;
 }
+
+/* Contact Us related */
+
+.contactTitle {
+    padding-top: 75px;
+    padding-left: 275px;
+
+    font-size: 35px;
+    font-family: "Playfair Display Bold";
+    color: #292828;
+}
+
+.contactNumber {
+    padding-top: 10px;
+    padding-left: 275px;
+
+    font-size: 20px;
+    font-family: "Playfair Display Bold";
+    color: #414141;
+}
+
+.addressTitle {
+    padding-top: 75px;
+    padding-left: 275px;
+
+    font-size: 35px;
+    font-family: "Playfair Display Bold";
+    color: #292828;
+}
+
+.addressInfo {
+    padding-left: 275px;
+    padding-top: 10px;
+
+    width: 530px;
+    font-size: 20px;
+    font-family: "Playfair Display Bold";
+    color: #414141;
+}
+
+.businessTitle {
+    padding-top: 75px;
+    padding-left: 275px;
+    
+    font-size: 35px;
+    font-family: "Playfair Display Bold";
+    color: #292828;
+}
+
+.businessHours {
+    padding-left: 275px;
+    padding-top: 10px;
+
+    font-size: 20px;
+    font-family: "Playfair Display Bold";
+    color: #414141;
+}

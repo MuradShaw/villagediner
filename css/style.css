@@ -39,32 +39,6 @@ header::after {
     margin-right: auto;
 }
 
-.contactNumber {
-    padding-top: 75px;
-    padding-left: 275px;
-
-    font-size: 35px;
-    font-family: "Playfair Display Bold";
-    color: #414141;
-}
-
-.businessHours {
-    padding-top: 75px;
-    padding-right: 275px;
-    
-    font-size: 35px;
-    font-family: "Playfair Display Bold";
-    color: #414141;
-}
-
-.addressInfo {
-    padding-top: 75px;
-    
-    font-size: 35px;
-    font-family: "Playfair Display Bold";
-    color: #414141;
-}
-
 hdTitle {
     padding: 25px;
     font-family: "Playfair Display Bold";
