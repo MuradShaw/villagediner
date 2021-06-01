@@ -8,7 +8,15 @@
 .menu {
     float: left;
     width: 50%;
-    height: 800px;
+    height: 763px;
     padding:auto;
     overflow:auto;
+}
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 75px;
 }

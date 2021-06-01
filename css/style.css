@@ -39,6 +39,32 @@ header::after {
     margin-right: auto;
 }
 
+.contactNumber {
+    padding-top: 75px;
+    padding-left: 275px;
+
+    font-size: 35px;
+    font-family: "Playfair Display Bold";
+    color: #414141;
+}
+
+.businessHours {
+    padding-top: 75px;
+    padding-right: 275px;
+    
+    font-size: 35px;
+    font-family: "Playfair Display Bold";
+    color: #414141;
+}
+
+.addressInfo {
+    padding-top: 75px;
+    
+    font-size: 35px;
+    font-family: "Playfair Display Bold";
+    color: #414141;
+}
+
 hdTitle {
     padding: 25px;
     font-family: "Playfair Display Bold";
@@ -58,7 +84,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 35px;
     margin-right: 25px;
     padding-top: 25px;
     position: relative;

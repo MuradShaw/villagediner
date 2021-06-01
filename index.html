@@ -24,9 +24,10 @@
 
         <nav>
             <ul>
-                <li><a href="#">Updates</a></li>
-                <li><a href="#anchor_testimonials">Testimonials</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#anc_updates">Updates</a></li>
+                <li><a href="#anc_testimonials">Testimonials</a></li>
+                <li><a href="#anc_menu">Menu / Gallery</a></li>
+                <li><a href="#anc_contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -41,7 +42,7 @@
 
   <!--  Update Related***
   addUpdatesRibbon = where we add the websites updates (White Bar under Updates Ribbon)-->
-  <div class="updateRibbon">
+  <div class="updateRibbon" id="anc_updates">
     Updates
   </div>
 
@@ -57,7 +58,7 @@
     </div>
   </div>
 
-  <div class="reviewRibbon" id="anchor_testimonials">Testimonials
+  <div class="reviewRibbon" id="anc_testimonials">Testimonials
     <br> <button class = "reviewRelated" onclick="loadAllReviews()">Write a Review</button> <button class = "reviewRelated" onclick="loadAllReviews()">Read More</button>
   </div>
 
@@ -80,16 +81,19 @@
 
   <div class = "threeColumns">
         <div class = "reviewStars">★★★★★</div>
-        <div class = "reviewText">"Good food, and friendly staff. I was asked to wear a mask while away from my table. Yes, asked, and politely.When I’m TOLD to wear a mask, I promptly leave without comment. They even provided a mask, which promptly broke."</div>
-        <div class = "reviewAuthor">- Gary H</div>
+        <div class = "reviewText">"Good food and fast service!</div>
+        <div class = "reviewTitle">I'll be back!!"</div>
+        <div class = "reviewAuthor">- David S</div>
     </div>
   </div>
 
   <!-- Gallery/Menu** -->
-  <div class="row">
+  <div class="row" id="anc_menu">
     <div class="column" style="background-color:#B34444; color:White;">| Gallery |</div>
     <div class="column" style="background-color:#B34444; color:White;">| Our Menu |</div>
   </div>
+
+  <div class="lovelyShadeofBlackForExtraSpaceInTheImagesSection"></div>
 
   <div class="imagesRibbon">
     <div class="gallery">
@@ -103,8 +107,8 @@
             <img class="mySlides" src="img/cover.jpg" style="width:100%; height: 760px;">
         </div>
     </div>
+        <button class="galleryRelated" onclick="enlargeMenu()">CLICK TO ENLARGE</button>
         <div class="menu">
-            <button class="galleryRelated" onclick="enlargeMenu()">CLICK TO ENLARGE</button>
                 <a href="https://www.musthavemenus.com/menu/viewMenu.do?token=bd3786aa-c805-4522-a186-1d00f623eeaa&lite=true">
                     <img src="img/1_1920.png" style="width:100%">
                     <img src="img/2_1920.png" style="width:100%">
@@ -151,8 +155,19 @@
     }
     </script>
 
-  <div class="bigRibbon">
+  <div class="bigRibbon" id="anc_contact">
     Contact Us
+  </div>
+  
+  <div class = "contactUsRibbon">
+    <a href = "https://www.google.com/maps/place/The+Village+Diner/@40.106475,-75.1496554,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6b09b4289ec5d:0xb9a37f203bfabaf1!8m2!3d40.1064721!4d-75.1474699">
+      <img class = "map" src="img/map.PNG"> </img>
+    </a>
+
+    <div class = "contactNumber" style = "float:left">Contact</div>
+    <div class = "addressInfo" style = "float:center">Contact</div>
+    <div class = "businessHours" style = "float:right">Business Hours</div>
+    
   </div>
 
   <script src="buttons.js"></script>
