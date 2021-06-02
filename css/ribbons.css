@@ -122,6 +122,13 @@
     background: #414141;
 }
 
+.headerRibbon{
+    width: 100%;
+    height: 3px;
+
+    background: black;
+}
+
 .footerRibbon{
     width: 100%;
     height: 25px;
