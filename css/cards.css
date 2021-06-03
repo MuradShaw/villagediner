@@ -1,6 +1,6 @@
-/* Review related */
 
-.reviewCards:hover {
+/* Review related */
+.threeColumns:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -14,6 +14,7 @@
     padding: 60px 60px;
     font-family: 'Roboto';
     font-size: 21px;
+    background: #F8F0EF;
 
     box-shadow: 0 4px 8px 0 #959595;
     transition: 0.3s;
@@ -68,10 +69,9 @@
 }
 
 /* Contact Us related */
-
 .contactTitle {
-    padding-top: 75px;
-    padding-left: 275px;
+    text-align: center;
+    padding: auto;
 
     font-size: 35px;
     font-family: "Playfair Display Bold";
@@ -79,17 +79,17 @@
 }
 
 .contactNumber {
-    padding-top: 10px;
-    padding-left: 275px;
+    text-align: center;
+    padding: auto;
 
-    font-size: 20px;
+    font-size: 21px;
     font-family: "Playfair Display Bold";
     color: #414141;
 }
 
 .addressTitle {
-    padding-top: 75px;
-    padding-left: 275px;
+    text-align: center;
+    padding: auto;
 
     font-size: 35px;
     font-family: "Playfair Display Bold";
@@ -97,29 +97,30 @@
 }
 
 .addressInfo {
-    padding-left: 275px;
-    padding-top: 10px;
+    text-align: center;
+    padding: auto;
 
-    width: 530px;
-    font-size: 20px;
+    width: 100%;
+    font-size: 21px;
     font-family: "Playfair Display Bold";
     color: #414141;
 }
 
 .businessTitle {
-    padding-top: 75px;
-    padding-left: 275px;
-    
+    text-align: center;
+    padding: auto;
+
     font-size: 35px;
     font-family: "Playfair Display Bold";
     color: #292828;
 }
 
 .businessHours {
-    padding-left: 275px;
-    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
 
-    font-size: 20px;
+    font-size: 21px;
     font-family: "Playfair Display Bold";
     color: #414141;
 }
