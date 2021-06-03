@@ -1,7 +1,7 @@
 .gallery {
     float: left;
     width: 50%;
-    height: 800px;
+    height: 763px;
     padding:auto;
 }
 
@@ -14,9 +14,9 @@
 }
 
 .map {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     padding-top: 75px;
 }
