@@ -31,7 +31,7 @@
             </ul>
         </nav>
     </header>
-  
+
   <div class="headerRibbon"></div>
 	<div class="blockRibbon"> </div>
 
@@ -80,7 +80,6 @@
       <div class = "updatePostDate">Posted on Oct 22, 2020</div> <br>
       <div class = "updateText"> <span style = "color: red"> MOVE TO RIGHT </span>  The Village Diner is open for indoor and outdoor seating as well as takeout. Stop on in for breakfast or lunch!</div>
     </div>
-  </div> 
 
   <div class = "updateCard">
     <div class = "updatePostDate">Posted on Dec 17, 2020</div> <br>
@@ -88,14 +87,16 @@
       <br><span style = "color: red"> MOVE TO RIGHT </span>Holiday Breakfast Meals - Let us bring the Diner home to you!
       </div>
   </div>
+</div>
+  <div style="padding-bottom:20px"> </div>
 
   <div class="reviewRibbon" id="anc_testimonials">Testimonials
     <br> <button class = "reviewRelated" onclick="loadAllReviews()">Write a Review</button> <button class = "reviewRelated" onclick="loadAllReviews()">Read More</button>
   </div>
-  
+
   <!-- Review Related**
   addreviewRibbon = where we add the reviews (White Bar under Reviews Ribbon)-->
-  <div class="addreviewRibbon" id = "parent">
+  <div class="row" id="parent">
     <div class = "threeColumns">
         <div class = "reviewStars">★★★★★</div>
         <div class = "reviewText">"This Local diner was suggested to me by my best friend and the food was amazing. I had the best grill cheese sandwich ever. The waitress we had was super sweet.</div>
@@ -124,7 +125,7 @@
     <div class="column" style="background-color:#B34444; color:White;">| Our Menu |</div>
   </div>
 
-  <div class="lovelyShadeofBlackForExtraSpaceInTheImagesSection"></div>
+  <div class="lovelyShadeofBlackForExtraSpaceInTheImagesSection" style="height:60px"></div>
 
   <div class="imagesRibbon">
     <div class="gallery">
@@ -146,8 +147,7 @@
                 </a>
             </div>
         </div>
-   </div>
-
+        <div class="lovelyShadeofBlackForExtraSpaceInTheImagesSection" style="height:60px"></div>
 
   <script>
     var slideIndex = 1;
@@ -181,42 +181,34 @@
       }
       myIndex++;
       if (myIndex > x.length) {myIndex = 1}
-      x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 10000); // Change image every 10 seconds
-    }
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 10000); // Change image every 10 seconds
+      }
     </script>
 
   <div class="bigRibbon" id="anc_contact">
     Contact Us
   </div>
-  
-  <div class = "contactUsRibbon">
+
+  <div class = "mapRibbon">
     <a href = "https://www.google.com/maps/place/The+Village+Diner/@40.106475,-75.1496554,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6b09b4289ec5d:0xb9a37f203bfabaf1!8m2!3d40.1064721!4d-75.1474699">
       <img class = "map" src="img/map.PNG"> </img>
     </a>
+  </div>
 
-    <div class = "contactTitle">
-      Contact
-    </div>
-    <div class = "contactNumber">
-      (215) 886-9656
-    </div>
-
-    <div class = "addressTitle">
-      Address
-    </div>
+  <div class = "contactUsRibbon" style = "height:auto;">
+    <div class = "contactTitle" style="padding-top:40px;">Contact</div>
+    <div class = "contactNumber">(215) 886-9656</div>
+    <div class = "addressTitle" style="padding-top:20px;">Address</div>
     <div class = "addressInfo">
-      299 Keswick Avenue
-      Glenside, Pennsylvania 19038
+      299 Keswick Avenue <br>
+      Glenside, Pennsylvania 19038 <br>
       United States
-
       <br><br>
       <button class = "reviewRelated" onclick="getDirections()">Get Directions</button>
     </div>
 
-    <div class = "businessTitle">
-        Business Hours
-    </div>
+    <div class = "businessTitle" style="padding-top:20px;">Business Hours</div>
     <div class = "businessHours">
         Mon:	8:00 AM – 2:00 PM <br>
         Tue:	8:00 AM – 2:00 PM <br>
@@ -224,7 +216,7 @@
         Thu:	8:00 AM – 2:00 PM <br>
         Fri:	8:00 AM – 2:00 PM <br>
         Sat:	8:00 AM – 2:00 PM <br>
-        Sun:	8:00 AM – 2:00 PM
+        Sun:	8:00 AM – 2:00 PM <br>
     </div>
   </div>
 
