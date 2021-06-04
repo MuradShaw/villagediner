@@ -29,8 +29,8 @@
 
 .addUpdatesRibbon {
     width: absolute;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    float: right;
+    text-align: right;
 }
 
 .updateRibbon {
