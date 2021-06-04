@@ -39,6 +39,12 @@
     color: black;
 }
 
+.smaller {
+    font-size: 11px;
+    font-style: italic;
+    color: black;
+}
+
 /* Update related */
 .updateCard {
     background: #F8F0EF;
