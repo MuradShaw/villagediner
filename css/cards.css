@@ -13,7 +13,7 @@
     width: 33.33%;
     padding: 60px 60px;
     font-family: 'Roboto';
-    font-size: 21px;
+    font-size: auto;
     background: #F8F0EF;
 
     box-shadow: 0 4px 8px 0 #959595;
@@ -30,7 +30,7 @@
     font-size: 17px;
     font-style: italic;
     float: right;
-    color:gray;
+    color: gray;
 }
 
 .reviewText {
@@ -39,27 +39,25 @@
     color: black;
 }
 
-.smaller {
-    font-size: 11px;
+/*.smaller {
+    font-size: auto;
     font-style: italic;
     color: black;
-}
+}*/
 
 /* Update related */
 .updateCard {
-    background: #F8F0EF;
-    width: 45%;
-    font-size: 20px;
+    width: 50.4%;
+    float: right;
+    font-size: 21px;
     font-family: 'Roboto';
     box-shadow: 0 4px 8px 0 #959595;
     transition: 0.3s;
-    display:block;
-    position:relative;
+    position: relative;
+    background: #F8F0EF;
 
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 134px;
+    padding: 25px 100px 25px 100px;
+
 }
 
 .updatePostDate {
@@ -71,6 +69,7 @@
 
 .updateText {
     font-size: 17px;
+    text-align: right;
     color:#1b1c1b;
 }
 
