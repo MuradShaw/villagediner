@@ -47,21 +47,26 @@
     <br> <button class = "reviewRelated" onclick="loadAllUpdates()">Read All</button>
   </div>
 
-  <div class="updateContainerRibbon">
-      <div class="updateContainer">
+    <div style="padding-bottom:20px"> </div>
+    <div class="updateContainer">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="padding-bottom:10px"> </div>
 
       <!--Updates go here: -->
-
+      <div class="updateContainerRibbon">
           <div class="updateCard">
-            <q class = "updateText"> 
-              Inside Dining now available daily from 8:00 am - 2:00 pm for breakfast and lunch.
-            </q>
+            <div class = "updateText">
+              "Inside Dining now available daily from 8:00 am - 2:00 pm for breakfast and lunch."
+            </div>
 
             <p class = "updatePostDate">Posted on Jan 4, 2021</p>
           </div>
-          
+
           <div class="updateCard">
-            <q class = "updateText"> 
+            <q class = "updateText">
                 Posted on Dec 17, 2020
             </q>
 
@@ -69,55 +74,50 @@
           </div>
 
           <div class="updateCard">
-              <q class = "updateText"> 
-                  <a href = "https://docs.google.com/forms/d/e/1FAIpQLScro98lrp9Y7AfgEVpMVl02jQFXmnPsQhegwxw2C94x76anjw/viewform?usp=sf_link">Holiday Breakfast Meals - Let us bring the Diner home to you!</a>
-          
-                  <br><a href = "img/update.png"> <img src = "img/update.png" style = "max-width: 25%" style = "max-height: 25%"></img> </a> 
-              </q>
-          
+              <div class = "updateText">
+                  <a href = "https://docs.google.com/forms/d/e/1FAIpQLScro98lrp9Y7AfgEVpMVl02jQFXmnPsQhegwxw2C94x76anjw/viewform?usp=sf_link">"Holiday Breakfast Meals - Let us bring the Diner home to you!"</a>
+
+                  <br><a href = "img/update.png"> <img src = "img/update.png" style="max-width: 30%"></img> </a>
+              </div>
+
               <p class = "updatePostDate">Posted on Dec 16, 2020</p>
           </div>
-          
+
           <div class="updateCard">
-              <q class = "updateText"> 
+              <q class = "updateText">
                   We are open for Dine in, Outside seating (with heaters) and take-out
               </q>
-  
+
               <p class = "updatePostDate">Posted on Nov 20, 2020</p>
           </div>
 
           <div class="updateCard">
-              <q class = "updateText"> 
+              <q class = "updateText">
                   Hours were updated.
               </q>
-  
-              <p class = "updatePostDate">Posted on Oct 22, 2020</p> 
+
+              <p class = "updatePostDate">Posted on Oct 22, 2020</p>
           </div>
 
           <div class="updateCard">
-              <q class = "updateText"> 
+              <q class = "updateText">
                   The Village Diner is open for indoor and outdoor seating as well as takeout. Stop on in for breakfast or lunch!
               </q>
-  
+
               <p class = "updatePostDate">Posted on Oct 22, 2020 </p>
           </div>
 
           <div class="updateCard">
-              <q class = "updateText"> 
-                  <br><a href = "img/update2.png"> <img src = "img/update2.png" style = "max-width: 25%" style = "max-height: 25%"></img> </a> 
-              </q>
-          
+              <div class = "updateText">
+                  <br><a href = "img/update2.png"> <img src="img/update2.png" style="max-width: 30%"></img> </a>
+              </div>
+
               <p class = "updatePostDate">Posted on Jun 11, 2020</p>
           </div>
+        </div>
 
-      <!--////////////////-->
+  <!--////////////////-->
 
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-  </div>
-
-  <div style="padding-bottom:20px"> </div>
 
   <div class="reviewRibbon" id="anc_testimonials">Testimonials
     <br> <button class = "reviewRelated" onclick="loadAllReviews()">Write a Review</button> <button class = "reviewRelated" onclick="loadAllReviews()">Read More</button>
@@ -143,7 +143,7 @@
   <div class = "threeColumns">
         <div class = "reviewStars">★★★★★</div>
         <div class = "reviewText">"Good food and fast service!</div>
-        <div class = "reviewTitle">I'll be back!!"</div> 
+        <div class = "reviewTitle">I'll be back!!"</div>
         <div class = "reviewAuthor">- David S</div>
     </div>
   </div>
@@ -168,14 +168,14 @@
             <img class="mySlides" src="img/cover.jpg" style="width:100%; height: 760px;">
         </div>
     </div>
-        <button class="galleryRelated" onclick="enlargeMenu()">CLICK TO ENLARGE</button>
-        <div class="menu">
-                <a href="https://www.musthavemenus.com/menu/viewMenu.do?token=bd3786aa-c805-4522-a186-1d00f623eeaa&lite=true">
-                    <img src="img/1_1920.png" style="width:100%">
-                    <img src="img/2_1920.png" style="width:100%">
-                </a>
-            </div>
-        </div>
+    <button class="galleryRelated" onclick="enlargeMenu()">CLICK TO ENLARGE</button>
+    <div class="menu">
+        <a href="https://www.musthavemenus.com/menu/viewMenu.do?token=bd3786aa-c805-4522-a186-1d00f623eeaa&lite=true">
+            <img src="img/1_1920.png" style="width:100%">
+            <img src="img/2_1920.png" style="width:100%">
+        </a>
+    </div>
+  </div>
         <div class="lovelyShadeofBlackForExtraSpaceInTheImagesSection" style="height:60px"></div>
 
   <div class="bigRibbon" id="anc_contact">
@@ -188,7 +188,7 @@
     </a>
   </div>
 
-  <div class = "contactUsRibbon" style = "height:auto;">
+  <div class = "contactUsRibbon" style="height:auto;">
     <div class = "contactTitle" style="padding-top:40px;">Contact</div>
     <div class = "contactNumber">(215) 886-9656</div>
     <div class = "addressTitle" style="padding-top:20px;">Address</div>
