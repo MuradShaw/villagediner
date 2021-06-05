@@ -41,53 +41,82 @@
     Phone: 215-886-9656
   </div>
 
-  <!--  Update Related***
-  addUpdatesRibbon = where we add the websites updates (White Bar under Updates Ribbon)-->
+  <!--Update Related-->
   <div class="updateRibbon" id="anc_updates">
     Updates
     <br> <button class = "reviewRelated" onclick="loadAllUpdates()">Read All</button>
   </div>
 
-  <div class="addUpdatesRibbon">
-    <div class = "updateCard">
-        <div class = "updatePostDate">Posted on Jan 4, 2021</div> <br>
-        <div class = "updateText">Inside Dining now available daily from 8:00 am - 2:00 pm for breakfast and lunch.</div>
-    </div>
+  <div class="updateContainerRibbon">
+      <div class="updateContainer">
 
-    <div class = "updateCard">
-        <div class = "updatePostDate">Posted on Dec 17, 2020</div> <br>
-        <div class = "updateText">Hours were updated.</div>
-    </div>
+      <!--Updates go here: -->
 
-    <div class = "updateCard">
-      <div class = "updatePostDate">Posted on Dec 17, 2020</div> <br>
-      <div class = "updateText"><img src = "img/update.png" width="350" height="350">
-        <br><a href= "https://docs.google.com/forms/d/e/1FAIpQLScro98lrp9Y7AfgEVpMVl02jQFXmnPsQhegwxw2C94x76anjw/viewform?usp=sf_link">Holiday Breakfast Meals - Let us bring the Diner home to you!
-        </a></div>
-    </div>
+          <div class="updateCard">
+            <q class = "updateText"> 
+              Inside Dining now available daily from 8:00 am - 2:00 pm for breakfast and lunch.
+            </q>
 
-    <div class = "updateCard">
-      <div class = "updatePostDate">Posted on Nov 20, 2020</div> <br>
-      <div class = "updateText"> <span style = "color: red"> MOVE TO RIGHT </span>  We are open for Dine in, Outside seating (with heaters) and take-out</div>
-    </div>
+            <p class = "updatePostDate">Posted on Jan 4, 2021</p>
+          </div>
+          
+          <div class="updateCard">
+            <q class = "updateText"> 
+                Posted on Dec 17, 2020
+            </q>
 
-    <div class = "updateCard">
-      <div class = "updatePostDate">Posted on Oct 22, 2020</div> <br>
-      <div class = "updateText"> <span style = "color: red"> MOVE TO RIGHT </span>  Hours were updated.</div>
-    </div>
+            <p class = "updatePostDate">Posted on Jan 4, 2021</p>
+          </div>
 
-    <div class = "updateCard">
-      <div class = "updatePostDate">Posted on Oct 22, 2020</div> <br>
-      <div class = "updateText"> <span style = "color: red"> MOVE TO RIGHT </span>  The Village Diner is open for indoor and outdoor seating as well as takeout. Stop on in for breakfast or lunch!</div>
-    </div>
+          <div class="updateCard">
+              <q class = "updateText"> 
+                  <a href = "https://docs.google.com/forms/d/e/1FAIpQLScro98lrp9Y7AfgEVpMVl02jQFXmnPsQhegwxw2C94x76anjw/viewform?usp=sf_link">Holiday Breakfast Meals - Let us bring the Diner home to you!</a>
+          
+                  <br><a href = "img/update.png"> <img src = "img/update.png" style = "max-width: 25%" style = "max-height: 25%"></img> </a> 
+              </q>
+          
+              <p class = "updatePostDate">Posted on Dec 16, 2020</p>
+          </div>
+          
+          <div class="updateCard">
+              <q class = "updateText"> 
+                  We are open for Dine in, Outside seating (with heaters) and take-out
+              </q>
+  
+              <p class = "updatePostDate">Posted on Nov 20, 2020</p>
+          </div>
 
-  <div class = "updateCard">
-    <div class = "updatePostDate">Posted on Dec 17, 2020</div> <br>
-    <div class = "updateText"><img src = "img/update2.png" width="350" height="350">
-      <br><span style = "color: red"> MOVE TO RIGHT </span>Holiday Breakfast Meals - Let us bring the Diner home to you!
+          <div class="updateCard">
+              <q class = "updateText"> 
+                  Hours were updated.
+              </q>
+  
+              <p class = "updatePostDate">Posted on Oct 22, 2020</p> 
+          </div>
+
+          <div class="updateCard">
+              <q class = "updateText"> 
+                  The Village Diner is open for indoor and outdoor seating as well as takeout. Stop on in for breakfast or lunch!
+              </q>
+  
+              <p class = "updatePostDate">Posted on Oct 22, 2020 </p>
+          </div>
+
+          <div class="updateCard">
+              <q class = "updateText"> 
+                  <br><a href = "img/update2.png"> <img src = "img/update2.png" style = "max-width: 25%" style = "max-height: 25%"></img> </a> 
+              </q>
+          
+              <p class = "updatePostDate">Posted on Jun 11, 2020</p>
+          </div>
+
+      <!--////////////////-->
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
   </div>
-</div>
+
   <div style="padding-bottom:20px"> </div>
 
   <div class="reviewRibbon" id="anc_testimonials">Testimonials
@@ -116,11 +145,6 @@
         <div class = "reviewText">"Good food and fast service!</div>
         <div class = "reviewTitle">I'll be back!!"</div> 
         <div class = "reviewAuthor">- David S</div>
-        <div class = "smaller">&nbsp;</div> 
-        <div class = "smaller">&nbsp;</div> 
-        <div class = "smaller">&nbsp;</div> 
-        <div class = "smaller">&nbsp;</div> 
-        <div class = "smaller">&nbsp;</div> 
     </div>
   </div>
 
@@ -153,43 +177,6 @@
             </div>
         </div>
         <div class="lovelyShadeofBlackForExtraSpaceInTheImagesSection" style="height:60px"></div>
-
-  <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slideIndex-1].style.display = "block";
-    }
-    </script>
-
-  <script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 10000); // Change image every 10 seconds
-      }
-    </script>
 
   <div class="bigRibbon" id="anc_contact">
     Contact Us
@@ -228,5 +215,6 @@
   <div class = "footerRibbon"></div>
 
   <script src="buttons.js"></script>
+  <script src="site.js"></script>
 </body>
 </html>

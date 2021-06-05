@@ -16,7 +16,7 @@
     font-size: auto;
     background: #F8F0EF;
 
-    box-shadow: 0 4px 8px 0 #959595;
+    /* box-shadow: 0 4px 8px 0 #9595954d; */
     transition: 0.3s;
 }
 
@@ -48,7 +48,8 @@
 /* Update related */
 .updateCard {
     width: 50.4%;
-    float: right;
+    display: inline-block;
+    float: left;
     font-size: 21px;
     font-family: 'Roboto';
     box-shadow: 0 4px 8px 0 #959595;
@@ -57,8 +58,14 @@
     background: #F8F0EF;
 
     padding: 25px 100px 25px 100px;
-
+    
+    box-shadow: 0 4px 8px 0 #9595954d;
+    transition: 0.3s;
 }
+
+.updateCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 
 .updatePostDate {
     font-size: 17px;
@@ -73,13 +80,46 @@
     color:#1b1c1b;
 }
 
+.updateContainer {
+    padding-top: 20px;
+    position: relative;
+    background: #F8F0EF;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
 /* Contact Us related */
 .contactTitle {
     text-align: center;
     padding: auto;
 
     font-size: 35px;
-    font-family: "Playfair Display Bold";
+    font-family: "Playfair Display Bold", serif;
     color: #292828;
 }
 
@@ -88,7 +128,7 @@
     padding: auto;
 
     font-size: 21px;
-    font-family: "Playfair Display Bold";
+    font-family: "Playfair Display Bold", serif;
     color: #414141;
 }
 
@@ -97,7 +137,7 @@
     padding: auto;
 
     font-size: 35px;
-    font-family: "Playfair Display Bold";
+    font-family: "Playfair Display Bold", serif;
     color: #292828;
 }
 
@@ -107,7 +147,7 @@
 
     width: 100%;
     font-size: 21px;
-    font-family: "Playfair Display Bold";
+    font-family: "Playfair Display Bold", serif;
     color: #414141;
 }
 
@@ -116,7 +156,7 @@
     padding: auto;
 
     font-size: 35px;
-    font-family: "Playfair Display Bold";
+    font-family: "Playfair Display Bold", serif;
     color: #292828;
 }
 
@@ -126,6 +166,6 @@
     padding-bottom: 50px;
 
     font-size: 21px;
-    font-family: "Playfair Display Bold";
+    font-family: "Playfair Display Bold", serif;
     color: #414141;
 }

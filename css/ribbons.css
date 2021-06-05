@@ -33,6 +33,11 @@
     text-align: right;
 }
 
+.updateContainerRibbon {
+    width: 100%;
+    height: 350px;
+}
+
 .updateRibbon {
     width: absolute;
     padding-top: 20px;
