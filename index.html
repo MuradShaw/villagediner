@@ -47,16 +47,14 @@
     <br> <button class = "reviewRelated" onclick="loadAllUpdates()">Read All</button>
   </div>
 
-    <div style="padding-bottom:20px"> </div>
-    <div class="updateContainer">
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
 
-    <div style="padding-bottom:10px"> </div>
 
       <!--Updates go here: -->
       <div class="updateContainerRibbon">
+        <div class="updateContainer" style="top: 20%">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
           <div class="updateCard">
             <div class = "updateText">
               "Inside Dining now available daily from 8:00 am - 2:00 pm for breakfast and lunch."
@@ -75,9 +73,9 @@
 
           <div class="updateCard">
               <div class = "updateText">
-                  <a href = "https://docs.google.com/forms/d/e/1FAIpQLScro98lrp9Y7AfgEVpMVl02jQFXmnPsQhegwxw2C94x76anjw/viewform?usp=sf_link">"Holiday Breakfast Meals - Let us bring the Diner home to you!"</a>
+                <a href = "https://docs.google.com/forms/d/e/1FAIpQLScro98lrp9Y7AfgEVpMVl02jQFXmnPsQhegwxw2C94x76anjw/viewform?usp=sf_link">"Holiday Breakfast Meals - Let us bring the Diner home to you!"</a>
 
-                  <br><a href = "img/update.png"> <img src = "img/update.png" style="max-width: 30%"></img> </a>
+                <br><a href = "img/update.png"> <img src = "img/update.png" style="max-width: 30%"></img> </a>
               </div>
 
               <p class = "updatePostDate">Posted on Dec 16, 2020</p>
@@ -115,10 +113,9 @@
               <p class = "updatePostDate">Posted on Jun 11, 2020</p>
           </div>
         </div>
+        <div style="padding-bottom:20px"> </div>
 
   <!--////////////////-->
-
-
   <div class="reviewRibbon" id="anc_testimonials">Testimonials
     <br> <button class = "reviewRelated" onclick="loadAllReviews()">Write a Review</button> <button class = "reviewRelated" onclick="loadAllReviews()">Read More</button>
   </div>
