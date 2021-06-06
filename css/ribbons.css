@@ -135,9 +135,15 @@
 
 .footerRibbon {
     width: 100%;
-    height: 20px;
+    height: 40px;
 
-    background: #414141;
+    
+    color: #F8F0EF;
+
+    font-size: 14px;
+    padding: 25x;
+    text-align: right;
+    background: #292929;
 }
 
 .blackRibbon {

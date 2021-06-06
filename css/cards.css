@@ -32,6 +32,12 @@
     color: black;
 }
 
+.reviewTitle {
+    font-size: 19px;
+    font-style: italic;
+    color: black;
+}
+
 /*.smaller {
     font-size: auto;
     font-style: italic;
@@ -51,7 +57,7 @@
     transition: 0.7s;
     position: relative;
     background: #F8F0EF;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px 10px 100px;
 }
 
 .updateCard:hover {

@@ -34,7 +34,7 @@ updateSlideShow();
 //Updates the slideshow to have a new update every few seconds
 function updateSlideShow()
 {
-    setTimeout(updateSlideShow, 5500); //update every 5.5 seconds
+    setTimeout(updateSlideShow, 9000); //update every 9 seconds
 
     plusSlides(1);
 }
